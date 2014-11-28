@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <title></title>
+        <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://demos.jquerymobile.com/1.3.2/css/themes/default/jquery.mobile-1.3.2.min.css">
+        <link rel="stylesheet" href="http://demos.jquerymobile.com/1.3.2/_assets/css/jqm-demos.css">
+        <link rel="stylesheet" href="rateit/rateit.css">
+        <!-- Javascript -->
+        <script src="js/jquery-1.3.2.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/jquery.mobile-1.3.2.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jqm-docs.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
+        <script type="text/javascript" charset="utf-8" src="rateit/jquery.rateit.js"></script>
+        <script>
+            
+        </script>
+        <script>
+            
+        </script>
+        <style>
+            img {
+                position:absolute;
+                top:0;
+                bottom:0;
+                margin:auto;
+            }
+            .ui-bar-b h1 {
+                background-color: #013A6F;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div data-role="page" id="recipe">
+            <div data-role="header" data-theme="b" data-position="fixed">
+                 <h3>Healthylicious Recipe</h3>
+                 <a href="index.html" data-icon="arrow-l">Back</a>
+                 <a href="#" data-icon="bars">Menu</a>
+            </div>
+            <div data-role="content">
+                <div >
+                    <div is="set" data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+                        <div data-role="collapsible" data-collapsed="false" data-allow-collapse="false">
+                             <h3>Ingredients</h3>
+
+                            <div id="ingredients" data-role="content"></div>
+                        </div>
+                        <div data-role="collapsible" data-collapsed="false" data-allow-collapse="false">
+                            	<h3>Source</h3>
+
+                            <div id="source" data-role="content"></div>
+                        </div>
+                        <div data-role="collapsible" data-collapsed-icon="gear" data-expanded-icon="delete">
+                            	<h3>Nutrition Values</h3>
+
+                            <p>The icons here are in on this collapsible which overrides the set icons.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/demo-html -->
+                </content>
+            </div>
+    </body>
+
+</html>
